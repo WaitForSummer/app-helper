@@ -1,0 +1,6 @@
+{
+  "name": "WF-S",
+  "description": "Твой ежедневник: контроль диабета 1 типа, журнал сахара, графики, напоминания, журнал питания с подсчетом ХЕ и калорий, экспорт данных, список покупок и оплата счетов.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

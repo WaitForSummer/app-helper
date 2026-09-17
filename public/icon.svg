@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0284c7" />
+            <stop offset="100%" stop-color="#0369a1" />
+        </linearGradient>
+        <linearGradient id="dropGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" />
+            <stop offset="100%" stop-color="#0284c7" />
+        </linearGradient>
+    </defs>
+    <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+    <!-- Blood drop symbol with glucose line -->
+    <path d="M256 96 C256 96, 144 240, 144 328 C144 390 194 440 256 440 C318 440 368 390 368 328 C368 240 256 96 256 96 Z" fill="#ffffff" opacity="0.95"/>
+    <!-- Target icon inside -->
+    <circle cx="256" cy="336" r="54" fill="none" stroke="#0284c7" stroke-width="14"/>
+    <circle cx="256" cy="336" r="22" fill="#0284c7"/>
+    <!-- Pulse / waveform accent -->
+    <path d="M200 336 L230 336 L244 304 L268 368 L282 336 L312 336" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
